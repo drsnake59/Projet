@@ -9,3 +9,4 @@
 \beamer@sectionintoc {4}{IA}{9}{0}{4}
 \beamer@subsectionintoc {4}{1}{Alpha Beta Elagage}{9}{0}{4}
 \beamer@subsectionintoc {4}{2}{MCTS}{10}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{12}{0}{5}
