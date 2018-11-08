@@ -1,0 +1,11 @@
+\babel@toc {french}{}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Descriptions Jeux}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Dakapo}{4}{0}{2}
+\beamer@subsectionintoc {2}{2}{Hnefatafl}{5}{0}{2}
+\beamer@subsectionintoc {2}{3}{Kamisado}{6}{0}{2}
+\beamer@subsectionintoc {2}{4}{Neutreeko}{7}{0}{2}
+\beamer@sectionintoc {3}{Pourquoi ces jeux?}{8}{0}{3}
+\beamer@sectionintoc {4}{IA}{9}{0}{4}
+\beamer@subsectionintoc {4}{1}{Alpha Beta Elagage}{9}{0}{4}
+\beamer@subsectionintoc {4}{2}{MCTS}{10}{0}{4}
