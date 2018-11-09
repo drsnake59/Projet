@@ -34,8 +34,25 @@
   \begin{frame}
   \frametitle{Introduction}
   
-  blablabla
-  \end{frame}
+  
+  \begin{block}{Support}
+  	Plateforme Openxum
+  \end{block}
+
+  \begin{block}{Jeux choisis}
+	
+	\begin{itemize}
+		\item Neutreeko
+		\item Hnefatafl
+		\item Dapako
+		\item Kamisado
+	\end{itemize}
+\end{block}
+  
+  \begin{alertblock}{Objectif}
+  	Créer une IA générique de jeux abstraits 
+  	\end{alertblock}
+\end{frame}
 \section[Description Jeux]{Descriptions Jeux} 
 
 \subsection[Neutreeko]{Neutreeko} 
@@ -56,13 +73,14 @@
 \end{column}
 
 \begin{column}{7cm}
-	\begin{block}{Regle}
+	\begin{block}{Règles}
 		\begin{itemize}
-			\item La couleur Noire commence. 
-			\item Une pièce se déplace dans toutes les directions.
-			\item Un pion s'arrête si il rencontre un autre pion ou le bord du plateau.
-			\item ni prise ni saut.
-			\item Le but aligner ses trois pièces en continu.
+			\item La couleur Noire commence
+			\item Une pièce se déplace dans toutes les directions
+			\item Un pion s'arrête si il rencontre un autre pion ou le bord du plateau
+			\item Ni prise,ni saut
+			\item Le but est d'aligner ses trois pièces en continu
+			\item Egalité si la même position arrive 3 fois
 		\end{itemize}
 	\end{block}   
 \end{column}
@@ -87,8 +105,8 @@
 \begin{column}{6cm}
 	\begin{alertblock}{But du jeu}
 		\begin{enumerate}
-			\item joueur blanc:Amener le roi dans une forteresse .
-			\item joueur noir:Prendre le roi adverse grâce à un encerclement du roi.
+			\item joueur blanc:Amener le roi dans une forteresse
+			\item joueur noir:Prendre le roi adverse grâce à un encerclement du roi
 		\end{enumerate}
 	\end{alertblock}   
 \end{column}
@@ -101,32 +119,60 @@
 \subtitle{Hnefatafl}
 \begin{columns}[t]
 \begin{column}{3cm}
-	\begin{block}{Situation}
+	\begin{block}{Situations}
 	\begin{enumerate}
 		\item \centering \includegraphics[width=50pt]{images/cap1.png}
-		\item \centering \includegraphics[width=50pt]{images/cap4.png}
 		\item \centering \includegraphics[width=50pt]{images/cap2.png}
+		\item  \centering \includegraphics[width=50pt]{images/cap3.png}
 		\\
-		 \centering \includegraphics[width=50pt]{images/cap3.png}
+		 \centering \includegraphics[width=50pt]{images/cap4.png}
 	\end{enumerate}	
 	\end{block} 
 \end{column}
 
 \begin{column}{7cm}
-	\begin{block}{Condition d'élimination d'une piece adverse}
+	\begin{block}{Conditions d'éliminations d'un pion adverse}
 		\begin{enumerate}
 		\item prise en tenaille d'un pion adverse
 		\item prise en tenaille entre le roi et un pion adverse
-		\item prise en tenaille par un adversaire et une forteresse. 
+		\item prise en tenaille par un adversaire et une forteresse 
 		\end{enumerate}
 	\end{block}  
 	
 	\begin{alertblock}{Exception}
-Un deplacement entre deux pions adverses n'élimine pas le pion.
+Un déplacement entre deux pions adverses n'élimine pas le pion
 	\end{alertblock}  
 \end{column}
 \end{columns}  
 \end{frame}
+
+\subsection[Dakapo]{Dakapo}
+\begin{frame}
+\frametitle{Dakapo}
+\subtitle{Dakapo}
+\begin{columns}[t]
+	\begin{column}{3cm}
+		\begin{block}{Plateau}
+			\centering \includegraphics[width=80pt]{images/daka.JPG}
+		\end{block}
+	\end{column}
+	
+	\begin{column}{7cm}
+		\begin{block}{Règles}
+			\begin{itemize}
+				\item Le premier joueur joue une couleur
+				\item Un joueur ne peut pas jouer la couleur qui vient d'être jouer
+				\item Les joueurs sont obligé de jouer sur une case adjacente à une case déjà occupée
+				\item deux pièces de la même couleur ne peuvent pas être adjacente
+				
+				
+			\end{itemize}
+		\end{block}
+	\end{column}
+\end{columns}
+
+\end{frame}
+
 
 \subsection[Kamisado]{Kamisado}
 \begin{frame}
@@ -142,8 +188,8 @@ Un deplacement entre deux pions adverses n'élimine pas le pion.
 \end{frame}
 
 \begin{frame}
-\color{blue}
 
+\frametitle{Kamisado}
 \begin{columns}[t]
     \begin{column}{3cm}
         \begin{block}{Modes de jeu}
@@ -170,71 +216,43 @@ Un deplacement entre deux pions adverses n'élimine pas le pion.
 \end{columns}
 
 \end{frame}
-\subsection[Dakapo]{Dakapo}
-\begin{frame}
-\frametitle{Dakapo}
-\subtitle{Dakapo}
-\begin{columns}[t]
-    \begin{column}{3cm}
-        \begin{block}{Plateau}
-            \centering \includegraphics[width=80pt]{images/daka.JPG}
-        \end{block}
-    \end{column}
-    
-    \begin{column}{7cm}
-        \begin{block}{Règles}
-            \begin{itemize}
-                \item Le premier joueur joue une couleur
-                \item Un joueur ne peut pas jouer la couleur qui vient d'être jouer
-                \item Les joueurs sont obligé de jouer sur une case adjacente à une case déjà occupée
-                \item deux pièces de la même couleur ne peuvent pas être adjacente
-                
-                
-            \end{itemize}
-        \end{block}
-    \end{column}
-\end{columns}
-
-\end{frame}
 
 \section{Pourquoi ces jeux?}  
+
   \begin{frame}
-  \frametitle{Pourquoi ces 4 jeux?}
-
-\begin{block}{ titre du block }
-      Texte, équations, image, tableau etc ...
-\end{block}
-
-\begin{block}{ titre du block }
-      Texte, équations, image, tableau etc ...
-\end{block}
-
-\begin{block}{ titre du block }
-      Texte, équations, image, tableau etc ...
-\end{block}
-			
-  \end{frame}
-    
+  \frametitle{Pourquoi ces 4 jeux?}\begin{block}{ Forme }
+  	Grille classique et carré
+  \end{block}\begin{block}{ Placement initial }
+  	Toujours au moins une base de pions
+  \end{block}\begin{block}{ Espace de recherche }
+  	Déplacements et placements avec contrainte -> espace de recherche raisonnable
+  \end{block}
+  
+\end{frame}
 \section{IA}
-\subsection{Alpha Beta Elagage} 
+\subsection{Algorithme Min-Max} 
   \begin{frame}
   \frametitle{Algorithme min-max}
+  \centering
 \includegraphics[width=150pt]{images/minmax.png}
 \includegraphics[width=150pt]{images/minmax2.png}
   \end{frame}
+\subsection{Elagage Alpha-Beta} 
   \begin{frame}
   \frametitle{Elagage Alpha-Beta}
 \centering \includegraphics[width=150pt]{images/alphabeta.png}
-\begin{block}{Interet de l'élagage}
+\begin{block}{Effets de l'élagage}
             \begin{itemize}
-                \item  réduire le nombre de nœuds évalués par MinMax
-                \item augmentation de la profondeur de l'arbre à puissance de calcul équivalent
+                \item Réduire le nombre de nœuds évalués par MinMax
+                \item Parcours de l'arbre plus efficace
+                \item Augmentation de la profondeur de l'arbre à puissance de calcul équivalent
             \end{itemize}
 \end{block}
 
-\begin{alertblock}{But de l'élagage}
+\begin{alertblock}{Conséquence  de l'élagage}
             \begin{itemize}
-                \item Déplacement effectué de meilleur qualité
+      
+                \item Meilleure performance de l'algorithme min-max
             \end{itemize}
 \end{alertblock}
 
@@ -275,8 +293,8 @@ Limites
 \end{frame}
 \section{Conclusion}
 \begin{frame}
-\frametitle{conclusion}
-blablabla
+\frametitle{Conclusion}
+\centering Merci,vous avez des questions?
 \end{frame}
 
 \end{document}
